@@ -1,0 +1,10 @@
+*.exe
+*.pyd
+*.so
+*.o
+__pycache__/
+registro.csv
+build/
+libreria/parqueaderolib_wrap.cxx
+libreria/parqueaderolib.py
+*.egg-info/
