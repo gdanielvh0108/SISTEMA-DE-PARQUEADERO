@@ -29,4 +29,3 @@ visualizador/         Interfaz gráfica (Python, tkinter)
 Respuesta	`OCUPADA;celda;libres=N`	`OCUPADA;7;libres=19`
 	`LIBERADA;celda;libres=N`	`LIBERADA;7;libres=20`
 	`ERROR;motivo;libres=N`	`ERROR;celda ocupada por otra placa;libres=19`
-Reglas: placa nueva → ocupa la celda; placa repetida → libera su celda. Se rechaza una celda fuera de rango (1 a 20) o ya ocupada por otra placa. Cada evento se guarda en `registro.csv`.
