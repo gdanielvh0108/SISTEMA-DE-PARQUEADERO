@@ -1,4 +1,4 @@
-# SISTEMA-DE-PARQUEADERO
+# SISTEMA-DE-PARQUEADERO🚗
 Sistema de parqueadero
 Proyecto de comunicación por sockets entre dos procesos, con una librería dinámica hecha en C++ y envuelta con SWIG para usarla desde Python.
 Generador de placas (C++): envía una placa cada 2 o 5 segundos por TCP.
@@ -11,7 +11,8 @@ Si una placa se repite, se libera su celda.
 
 
 
-# Estructura
+## Estructura
+
 ```
 generador/            Generador de placas (C++, Winsock)
   main.cpp              archivo principal
@@ -28,15 +29,11 @@ libreria/             Librería dinámica (C++ + SWIG)
 visualizador/         Interfaz gráfica (Python, tkinter)
   main.py               archivo principal
   interfaz.py           clase Interfaz
-
+```
 
 Respuesta	`OCUPADA;celda;libres=N`	`OCUPADA;7;libres=19`
-
-
-
-
-	`LIBERADA;celda;libres=N`	`LIBERADA;7;libres=20`
-	`ERROR;motivo;libres=N`	`ERROR;celda ocupada por otra placa;libres=19`
+`LIBERADA;celda;libres=N`	`LIBERADA;7;libres=20`
+	`ERROR;motivo;libres=N`	`ERROR;celda ocupada por otra placa;libres=19.`
 
 ## Compilar
 
@@ -61,6 +58,7 @@ Mensaje: `PLACA;HORA;CELDA` (ejemplo: `ABC123;14:35:02;7`).
 Placa nueva → ocupa la celda. Placa repetida → libera la celda.
 
 ## Autores
+
 
 - Daniel Vergara
 - Yireinis Renteria Martinez
