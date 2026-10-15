@@ -1,4 +1,4 @@
-### SISTEMA-DE-PARQUEADERO
+# SISTEMA-DE-PARQUEADERO
 Sistema de parqueadero
 Proyecto de comunicación por sockets entre dos procesos, con una librería dinámica hecha en C++ y envuelta con SWIG para usarla desde Python.
 Generador de placas (C++): envía una placa cada 2 o 5 segundos por TCP.
