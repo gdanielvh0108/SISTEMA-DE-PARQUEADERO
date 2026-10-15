@@ -24,8 +24,7 @@ libreria/             Librería dinámica (C++ + SWIG)
 visualizador/         Interfaz gráfica (Python, tkinter)
   main.py               archivo principal
   interfaz.py           clase Interfaz
-docs/                 UML (uml.dot y img/uml.png) y textos de la wiki
-```
+
 
 Respuesta	`OCUPADA;celda;libres=N`	`OCUPADA;7;libres=19`
 	`LIBERADA;celda;libres=N`	`LIBERADA;7;libres=20`
